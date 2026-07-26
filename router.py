@@ -1,5 +1,7 @@
 from commands import files, apps, system
 from commands import organizer
+from commands import storage
+
 HELP_TEXT = """
 ...
 """
@@ -13,6 +15,9 @@ def handle(command):
         print(HELP_TEXT)
         return
 
+    if storage.handle(cmd, command):
+        return
+
     if files.handle(cmd, command):
         return
 
@@ -21,6 +26,7 @@ def handle(command):
 
     if system.handle(cmd, command):
         return
+
     if organizer.handle(cmd, command):
         return
 

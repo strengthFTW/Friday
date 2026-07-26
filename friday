@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+"$FRIDAY_DIR/.venv/bin/python" "$FRIDAY_DIR/friday.py" $argv

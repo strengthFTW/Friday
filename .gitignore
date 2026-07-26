@@ -1,0 +1,48 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Compiled extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Type checker
+.mypy_cache/
+
+# Ruff
+.ruff_cache/
+
+# Local AI models / cache (if you add any later)
+models/
+cache/
+
+# Temporary files
+*.tmp
+*.bak

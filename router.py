@@ -8,6 +8,7 @@ HELP_TEXT = """
 
 
 def handle(command):
+    print(f"Debug: '{command}'")
     command = command.strip()
     cmd = command.lower()
 

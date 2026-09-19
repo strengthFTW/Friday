@@ -18,9 +18,19 @@ def main():
     while True:
         command = input("Friday > ")
 
+        if command.lower() == "hello":
+            print("Hello!")
+            continue
+            
+        if command.lower() == "hi":
+            print("Whatsup !")
+            continue
+        if command.lower() == "nigga":
+            print("YOU NIGGA")
+            continue
         if command.lower() == "exit":
-            print("Goodbye!")
-            break
+            print("See ya <3")
+            break        
 
         handle(command)
 

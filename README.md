@@ -2,7 +2,10 @@
 
 Friday is a lightweight command-line assistant for Linux with an interactive `Friday >` interface for system monitoring, file management, storage utilities, and launching applications.
 
+<h2>🎥 Demo</h2>
+
 <video src="./Demo.webm" autoplay loop muted playsinline controls width="800"></video>
+
 ## Installation
 
 ```bash
